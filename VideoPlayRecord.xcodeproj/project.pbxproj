@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F14F09D7155A4DF000FE8EF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14F09D6155A4DF000FE8EF5 /* UIKit.framework */; };
+		F14F09D9155A4DF000FE8EF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14F09D8155A4DF000FE8EF5 /* Foundation.framework */; };
+		F14F09DB155A4DF000FE8EF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14F09DA155A4DF000FE8EF5 /* CoreGraphics.framework */; };
+		F14F09E1155A4DF000FE8EF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F14F09DF155A4DF000FE8EF5 /* InfoPlist.strings */; };
+		F14F09E3155A4DF000FE8EF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F14F09E2155A4DF000FE8EF5 /* main.m */; };
+		F14F09E7155A4DF000FE8EF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F14F09E6155A4DF000FE8EF5 /* AppDelegate.m */; };
+		F14F09EA155A4DF000FE8EF5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14F09E8155A4DF000FE8EF5 /* MainStoryboard.storyboard */; };
+		F14F09ED155A4DF000FE8EF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14F09EC155A4DF000FE8EF5 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F14F09D2155A4DF000FE8EF5 /* VideoPlayRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14F09D6155A4DF000FE8EF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F14F09D8155A4DF000FE8EF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F14F09DA155A4DF000FE8EF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F14F09DE155A4DF000FE8EF5 /* VideoPlayRecord-Info.plist */ = {isa = PBXFileReference; path = "VideoPlayRecord-Info.plist"; sourceTree = "<group>"; };
+		F14F09E0155A4DF000FE8EF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F14F09E2155A4DF000FE8EF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F14F09E4155A4DF000FE8EF5 /* VideoPlayRecord-Prefix.pch */ = {isa = PBXFileReference; path = "VideoPlayRecord-Prefix.pch"; sourceTree = "<group>"; };
+		F14F09E5155A4DF000FE8EF5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F14F09E6155A4DF000FE8EF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F14F09E9155A4DF000FE8EF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F14F09EB155A4DF000FE8EF5 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F14F09EC155A4DF000FE8EF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F14F09CF155A4DF000FE8EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14F09D7155A4DF000FE8EF5 /* UIKit.framework in Frameworks */,
+				F14F09D9155A4DF000FE8EF5 /* Foundation.framework in Frameworks */,
+				F14F09DB155A4DF000FE8EF5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F14F09C7155A4DF000FE8EF5 = {
+			isa = PBXGroup;
+			children = (
+				F14F09DC155A4DF000FE8EF5 /* VideoPlayRecord */,
+				F14F09D5155A4DF000FE8EF5 /* Frameworks */,
+				F14F09D3155A4DF000FE8EF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F14F09D3155A4DF000FE8EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F14F09D2155A4DF000FE8EF5 /* VideoPlayRecord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F14F09D5155A4DF000FE8EF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F14F09D6155A4DF000FE8EF5 /* UIKit.framework */,
+				F14F09D8155A4DF000FE8EF5 /* Foundation.framework */,
+				F14F09DA155A4DF000FE8EF5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F14F09DC155A4DF000FE8EF5 /* VideoPlayRecord */ = {
+			isa = PBXGroup;
+			children = (
+				F14F09E5155A4DF000FE8EF5 /* AppDelegate.h */,
+				F14F09E6155A4DF000FE8EF5 /* AppDelegate.m */,
+				F14F09E8155A4DF000FE8EF5 /* MainStoryboard.storyboard */,
+				F14F09EB155A4DF000FE8EF5 /* ViewController.h */,
+				F14F09EC155A4DF000FE8EF5 /* ViewController.m */,
+				F14F09DD155A4DF000FE8EF5 /* Supporting Files */,
+			);
+			path = VideoPlayRecord;
+			sourceTree = "<group>";
+		};
+		F14F09DD155A4DF000FE8EF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F14F09DE155A4DF000FE8EF5 /* VideoPlayRecord-Info.plist */,
+				F14F09DF155A4DF000FE8EF5 /* InfoPlist.strings */,
+				F14F09E2155A4DF000FE8EF5 /* main.m */,
+				F14F09E4155A4DF000FE8EF5 /* VideoPlayRecord-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F14F09D1155A4DF000FE8EF5 /* VideoPlayRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14F09F0155A4DF000FE8EF5 /* Build configuration list for PBXNativeTarget "VideoPlayRecord" */;
+			buildPhases = (
+				F14F09CE155A4DF000FE8EF5 /* Sources */,
+				F14F09CF155A4DF000FE8EF5 /* Frameworks */,
+				F14F09D0155A4DF000FE8EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoPlayRecord;
+			productName = VideoPlayRecord;
+			productReference = F14F09D2155A4DF000FE8EF5 /* VideoPlayRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F14F09C9155A4DF000FE8EF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = DataInvent;
+			};
+			buildConfigurationList = F14F09CC155A4DF000FE8EF5 /* Build configuration list for PBXProject "VideoPlayRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F14F09C7155A4DF000FE8EF5;
+			productRefGroup = F14F09D3155A4DF000FE8EF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F14F09D1155A4DF000FE8EF5 /* VideoPlayRecord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F14F09D0155A4DF000FE8EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14F09E1155A4DF000FE8EF5 /* InfoPlist.strings in Resources */,
+				F14F09EA155A4DF000FE8EF5 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F14F09CE155A4DF000FE8EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14F09E3155A4DF000FE8EF5 /* main.m in Sources */,
+				F14F09E7155A4DF000FE8EF5 /* AppDelegate.m in Sources */,
+				F14F09ED155A4DF000FE8EF5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F14F09DF155A4DF000FE8EF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14F09E0155A4DF000FE8EF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F14F09E8155A4DF000FE8EF5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14F09E9155A4DF000FE8EF5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F14F09EE155A4DF000FE8EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F14F09EF155A4DF000FE8EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F14F09F1155A4DF000FE8EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoPlayRecord/VideoPlayRecord-Prefix.pch";
+				INFOPLIST_FILE = "VideoPlayRecord/VideoPlayRecord-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F14F09F2155A4DF000FE8EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoPlayRecord/VideoPlayRecord-Prefix.pch";
+				INFOPLIST_FILE = "VideoPlayRecord/VideoPlayRecord-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F14F09CC155A4DF000FE8EF5 /* Build configuration list for PBXProject "VideoPlayRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14F09EE155A4DF000FE8EF5 /* Debug */,
+				F14F09EF155A4DF000FE8EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14F09F0155A4DF000FE8EF5 /* Build configuration list for PBXNativeTarget "VideoPlayRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14F09F1155A4DF000FE8EF5 /* Debug */,
+				F14F09F2155A4DF000FE8EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F14F09C9155A4DF000FE8EF5 /* Project object */;
+}
