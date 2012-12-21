@@ -15,6 +15,15 @@
 		F14F09E7155A4DF000FE8EF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F14F09E6155A4DF000FE8EF5 /* AppDelegate.m */; };
 		F14F09EA155A4DF000FE8EF5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14F09E8155A4DF000FE8EF5 /* MainStoryboard.storyboard */; };
 		F14F09ED155A4DF000FE8EF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14F09EC155A4DF000FE8EF5 /* ViewController.m */; };
+		F14F09F5155A519C00FE8EF5 /* PlayVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = F14F09F4155A519C00FE8EF5 /* PlayVideo.m */; };
+		F14F09F8155A51AE00FE8EF5 /* RecordVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = F14F09F7155A51AE00FE8EF5 /* RecordVideo.m */; };
+		F14F09FB155A51B900FE8EF5 /* MergeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = F14F09FA155A51B900FE8EF5 /* MergeVideo.m */; };
+		F14F0A01155A560200FE8EF5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14F0A00155A560200FE8EF5 /* AVFoundation.framework */; };
+		F14F0A03155A560800FE8EF5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14F0A02155A560800FE8EF5 /* CoreMedia.framework */; };
+		F14F0A05155A560F00FE8EF5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14F0A04155A560F00FE8EF5 /* QuartzCore.framework */; };
+		F14F0A07155A561600FE8EF5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14F0A06155A561500FE8EF5 /* AssetsLibrary.framework */; };
+		F14F0A09155A562000FE8EF5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14F0A08155A562000FE8EF5 /* MediaPlayer.framework */; };
+		F14F0A0B155A562800FE8EF5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14F0A0A155A562800FE8EF5 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +31,27 @@
 		F14F09D6155A4DF000FE8EF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F14F09D8155A4DF000FE8EF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F14F09DA155A4DF000FE8EF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F14F09DE155A4DF000FE8EF5 /* VideoPlayRecord-Info.plist */ = {isa = PBXFileReference; path = "VideoPlayRecord-Info.plist"; sourceTree = "<group>"; };
+		F14F09DE155A4DF000FE8EF5 /* VideoPlayRecord-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoPlayRecord-Info.plist"; sourceTree = "<group>"; };
 		F14F09E0155A4DF000FE8EF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F14F09E2155A4DF000FE8EF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F14F09E4155A4DF000FE8EF5 /* VideoPlayRecord-Prefix.pch */ = {isa = PBXFileReference; path = "VideoPlayRecord-Prefix.pch"; sourceTree = "<group>"; };
-		F14F09E5155A4DF000FE8EF5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F14F09E4155A4DF000FE8EF5 /* VideoPlayRecord-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoPlayRecord-Prefix.pch"; sourceTree = "<group>"; };
+		F14F09E5155A4DF000FE8EF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F14F09E6155A4DF000FE8EF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F14F09E9155A4DF000FE8EF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F14F09EB155A4DF000FE8EF5 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F14F09EB155A4DF000FE8EF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F14F09EC155A4DF000FE8EF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F14F09F3155A519C00FE8EF5 /* PlayVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVideo.h; sourceTree = "<group>"; };
+		F14F09F4155A519C00FE8EF5 /* PlayVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVideo.m; sourceTree = "<group>"; };
+		F14F09F6155A51AE00FE8EF5 /* RecordVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordVideo.h; sourceTree = "<group>"; };
+		F14F09F7155A51AE00FE8EF5 /* RecordVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordVideo.m; sourceTree = "<group>"; };
+		F14F09F9155A51B900FE8EF5 /* MergeVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeVideo.h; sourceTree = "<group>"; };
+		F14F09FA155A51B900FE8EF5 /* MergeVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeVideo.m; sourceTree = "<group>"; };
+		F14F0A00155A560200FE8EF5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F14F0A02155A560800FE8EF5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F14F0A04155A560F00FE8EF5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F14F0A06155A561500FE8EF5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F14F0A08155A562000FE8EF5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F14F0A0A155A562800FE8EF5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +59,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14F0A0B155A562800FE8EF5 /* MobileCoreServices.framework in Frameworks */,
+				F14F0A09155A562000FE8EF5 /* MediaPlayer.framework in Frameworks */,
+				F14F0A07155A561600FE8EF5 /* AssetsLibrary.framework in Frameworks */,
+				F14F0A05155A560F00FE8EF5 /* QuartzCore.framework in Frameworks */,
+				F14F0A03155A560800FE8EF5 /* CoreMedia.framework in Frameworks */,
+				F14F0A01155A560200FE8EF5 /* AVFoundation.framework in Frameworks */,
 				F14F09D7155A4DF000FE8EF5 /* UIKit.framework in Frameworks */,
 				F14F09D9155A4DF000FE8EF5 /* Foundation.framework in Frameworks */,
 				F14F09DB155A4DF000FE8EF5 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +77,12 @@
 		F14F09C7155A4DF000FE8EF5 = {
 			isa = PBXGroup;
 			children = (
+				F14F0A0A155A562800FE8EF5 /* MobileCoreServices.framework */,
+				F14F0A08155A562000FE8EF5 /* MediaPlayer.framework */,
+				F14F0A06155A561500FE8EF5 /* AssetsLibrary.framework */,
+				F14F0A04155A560F00FE8EF5 /* QuartzCore.framework */,
+				F14F0A02155A560800FE8EF5 /* CoreMedia.framework */,
+				F14F0A00155A560200FE8EF5 /* AVFoundation.framework */,
 				F14F09DC155A4DF000FE8EF5 /* VideoPlayRecord */,
 				F14F09D5155A4DF000FE8EF5 /* Frameworks */,
 				F14F09D3155A4DF000FE8EF5 /* Products */,
@@ -80,6 +113,12 @@
 				F14F09E5155A4DF000FE8EF5 /* AppDelegate.h */,
 				F14F09E6155A4DF000FE8EF5 /* AppDelegate.m */,
 				F14F09E8155A4DF000FE8EF5 /* MainStoryboard.storyboard */,
+				F14F09F6155A51AE00FE8EF5 /* RecordVideo.h */,
+				F14F09F7155A51AE00FE8EF5 /* RecordVideo.m */,
+				F14F09F9155A51B900FE8EF5 /* MergeVideo.h */,
+				F14F09FA155A51B900FE8EF5 /* MergeVideo.m */,
+				F14F09F3155A519C00FE8EF5 /* PlayVideo.h */,
+				F14F09F4155A519C00FE8EF5 /* PlayVideo.m */,
 				F14F09EB155A4DF000FE8EF5 /* ViewController.h */,
 				F14F09EC155A4DF000FE8EF5 /* ViewController.m */,
 				F14F09DD155A4DF000FE8EF5 /* Supporting Files */,
@@ -164,6 +203,9 @@
 				F14F09E3155A4DF000FE8EF5 /* main.m in Sources */,
 				F14F09E7155A4DF000FE8EF5 /* AppDelegate.m in Sources */,
 				F14F09ED155A4DF000FE8EF5 /* ViewController.m in Sources */,
+				F14F09F5155A519C00FE8EF5 /* PlayVideo.m in Sources */,
+				F14F09F8155A51AE00FE8EF5 /* RecordVideo.m in Sources */,
+				F14F09FB155A51B900FE8EF5 /* MergeVideo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +237,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gaurav Murghai (JXGZJFUXN4)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -210,6 +253,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "B9748AB7-D2D2-4BFC-A3C4-6FE689FBD98B";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -220,6 +264,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gaurav Murghai (JXGZJFUXN4)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -229,6 +274,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "B9748AB7-D2D2-4BFC-A3C4-6FE689FBD98B";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -237,10 +283,12 @@
 		F14F09F1155A4DF000FE8EF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gaurav Murghai (JXGZJFUXN4)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VideoPlayRecord/VideoPlayRecord-Prefix.pch";
 				INFOPLIST_FILE = "VideoPlayRecord/VideoPlayRecord-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B9748AB7-D2D2-4BFC-A3C4-6FE689FBD98B";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -248,10 +296,12 @@
 		F14F09F2155A4DF000FE8EF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gaurav Murghai (JXGZJFUXN4)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VideoPlayRecord/VideoPlayRecord-Prefix.pch";
 				INFOPLIST_FILE = "VideoPlayRecord/VideoPlayRecord-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B9748AB7-D2D2-4BFC-A3C4-6FE689FBD98B";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -275,6 +325,7 @@
 				F14F09F2155A4DF000FE8EF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
